@@ -25,7 +25,7 @@ function SecHedron() {
             <div className='flex justify-end gap-6'>
 
                 <a href="#">
-                    <button className='text-sm md:text-lg lg:text-xl px-6 py-2 text-black bg-white/50 hover:bg-white/30 rounded duration-300 lg:px-10 lg:py-4'>
+                    <button className='text-sm md:text-lg lg:text-xl px-6 py-2 text-black bg-white hover:bg-blueee-0 rounded duration-300 lg:px-10 lg:py-4'>
                     Start Staking 
                     </button>
                 </a>
