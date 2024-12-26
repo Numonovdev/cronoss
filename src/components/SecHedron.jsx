@@ -6,7 +6,7 @@ function SecHedron() {
   return (
     <div className='container flex flex-col md:flex-row items-center gap-6 md:gap-10  px-5 md:px-1 py-6 md:py-20 text-white '>
 
-        <img src={img} alt="" />
+        <img src={img} className='w-[200px] sm:w-[300px] lg:w-[450px] xl:w-[748px]' alt="" />
 
         <div className='flex flex-col max-w-[580px] gap-3 md:gap-6'>
 

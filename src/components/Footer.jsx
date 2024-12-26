@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='container py-16 flex flex-wrap justify-between text-white/45 border-t border-white/45'>
+    <div className='px-6 gap-6 container py-16 flex flex-wrap justify-between text-white/45 border-t border-white/45'>
 
       <div className='flex flex-col gap-8'>
           <h1 className='text-white font-medium text-2xl sm:text-3xl md:text-[35px]'>Learn</h1>

@@ -9,7 +9,7 @@ import img3 from "../assets/image9.png"
 
 function Economy() {
   return (
-    <div className=' py-7 md:py-20 flex flex-col text-white container gap-16 '>
+    <div className='px-5 md:px-0 py-7 md:py-20 flex flex-col text-white container gap-16 '>
 
         <div className='flex flex-col gap-16'>
 
@@ -24,9 +24,9 @@ function Economy() {
 
         </div>
 
-        <div className='grid grid-cols-4 grid-rows-2 gap-14'>
+        <div className='flex flex-col md:flex-row gap-14'>
 
-            <div className='px-7 py-10 bg-[#141414] rounded shadow col-span-2 row-span-2 flex flex-col gap-5 md:gap-10'>
+            <div className='px-7 py-10 bg-[#141414] rounded shadow col-span-2 md:row-span-2 flex flex-col gap-5 md:gap-10'>
                 <p className='text-[16px] sm:text-lg md:text-xl xl:text-2xl text-[#A5A5A5] font-medium'>
                 INTERCHAIN ACCOUNTS
                 </p>
@@ -45,8 +45,9 @@ function Economy() {
                 </a>
             </div>
 
-            <div className='px-7 py-10 bg-[#141414] rounded shadow col-span-2 flex'>
-                <div className='flex flex-col justify-between h-full'>
+           <div className='flex flex-col gap-10 '>
+            <div className='px-7 py-10 bg-[#141414] rounded shadow  flex-col md:flex-row  min-h-[550px] flex'>
+                <div className='flex flex-col justify-between gap-10 h-full'>
                     
                     <p className='text-[16px] sm:text-lg md:text-xl xl:text-2xl text-[#A5A5A5] font-medium'>
                         INTERCHAIN ACCOUNTS
@@ -65,14 +66,17 @@ function Economy() {
 
                 <div className='relative right-7 top-0 bg-white'>
                     {/* nima sababligin bilolmadim  */}
-                    <img src={img1} alt="" className='absolute w-[331px]'/>
-                    <img src={img2} alt="" className=' absolute top-0'/>
+                    <img src={img1} alt="" className='absolute '/>
+                    <img src={img2} alt="" className='absolute top-0'/>
                     <img src={img3} alt="" className='absolute top-0'/>
 
                 </div>
 
             </div>
-            <div className='px-7 py-10 bg-[#141414] rounded shadow flex flex-col justify-between'>
+
+            <div className='flex flex-col md:flex-row gap-10'>
+            
+            <div className='px-7 py-10 bg-[#141414] col-span-1 rounded shadow flex flex-col justify-between min-h-[340px]'>
                     <p className='text-[16px] sm:text-lg md:text-xl xl:text-2xl text-[#A5A5A5] font-medium'>
                         LIQUIDITY POOL  
                     </p>
@@ -88,7 +92,7 @@ function Economy() {
                         COMING SOON
                     </a>
             </div>
-            <div className='px-7 py-10 bg-[#141414] rounded shadow flex flex-col relative'>
+            <div className='px-7 py-10 bg-[#141414] col-span-1 rounded shadow flex flex-col relative min-h-[340px]'>
                     <p className='text-[16px] sm:text-lg md:text-xl xl:text-2xl text-[#A5A5A5] font-medium'>
                         WRAPPED ETH  
                     </p>
@@ -98,9 +102,12 @@ function Economy() {
                         Included
                     </h1>
 
-                    <a href="#" className='absolute bottom-10 duration-300 text-[16px] sm:text-lg md:text-2xl font-medium text-[#A5A5A5] hover:text-[#A5A5A5]/60'>
+                    <a href="#" className='absolute bottom-10 duration-300 text-[16px] sm:text-lg md:text-2xl  font-medium text-[#A5A5A5] hover:text-[#A5A5A5]/60'>
                         COMING SOON
                     </a>
+            
+            </div>
+            </div>
             </div>
         </div>
 

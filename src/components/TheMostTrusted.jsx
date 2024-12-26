@@ -1,10 +1,12 @@
 import React from 'react'
-
+import img from "../assets/image13.png"
 function TheMostTrusted() {
   return (
-    <div className='flex flex-col container py-32 text-white items-center gap-20'>
+    <div className='relative w-full'>
+        <img src={img} className='absolute bottom-0 right-0 w-[300px] sm:w-[470px] md:w-[550px] lg:w-[620px] xl:w-[720px]' alt="" />
+    <div className='relative px-5 md:px-0 flex flex-col container py-32 text-white items-center gap-20'>
 
-        <div className='flex flex-col md:flex-row items-center'>
+        <div className='flex flex-col md:flex-row items-center gap-7'>
 
             <div className='flex flex-col max-[777px] gap-20'>
 
@@ -50,9 +52,9 @@ function TheMostTrusted() {
 
         </div>
 
-        <div className='w-full flex justify-evenly items-center '>
+        <div className='w-full flex flex-col md:flex-row justify-evenly items-center gap-5'>
 
-            <div className='flex flex-col gap-10'>
+            <div className='flex flex-col gap-10 items-center md:items-start'>
     
             <p className='text-[16px] sm:text-lg md:text-xl xl:text-2xl text-[#A5A5A5] font-medium'>
                 LOW FEES  
@@ -68,7 +70,7 @@ function TheMostTrusted() {
 
             </div>
 
-            <div className='flex flex-col gap-10'>
+            <div className='flex flex-col gap-10 items-center md:items-start'>
     
             <p className='text-[16px] sm:text-lg md:text-xl xl:text-2xl text-[#A5A5A5] font-medium'>
                 FAST TRANSACTIONS  
@@ -86,6 +88,7 @@ function TheMostTrusted() {
 
         </div>
 
+    </div>
     </div>
 )
 }

@@ -5,7 +5,7 @@ import img2 from "../assets/image12.png"
 
 function JoinNetwork() {
   return (
-    <div className='container flex flex-col text-white py-20 gap-20'>
+    <div className='container flex flex-col text-white py-20 gap-20 px-5 md:px-0'>
 
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[90px] font-bold text-center mt-5'>
             Join the network.

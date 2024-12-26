@@ -26,9 +26,9 @@ function Servise() {
                 
                 <div className='flex items-center gap-8'>
 
-                    <button className='px-14 py-3 bg-white/50 text-[16px] font-bold text-black md:text-xl hover:bg-blueee-0 duration-300 rounded'>Learn</button>
+                    <button className=' px-7 md:px-14 py-3 bg-white text-[16px] font-bold text-black md:text-xl hover:bg-blueee-0 duration-300 rounded'>Learn</button>
 
-                    <a href='#' className='flex gap-3 items-center text-[16px] sm:text-xl font-bold hover:text-blueee-0 cursor-pointer duration-300'>Explore Tokens <FaAngleRight /></a>
+                    <a href='#' className='flex gap-3 items-center text-[10px] sm:text-xl font-bold hover:text-blueee-0 cursor-pointer duration-300'>Explore Tokens <FaAngleRight /></a>
 
                 </div>
             </div>

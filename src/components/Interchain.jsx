@@ -39,7 +39,7 @@ function Interchain() {
         
         <div className='mt-5 md:mt-10 flex justify-center lg:justify-start lg:px-12  xl:px-28 2xl:px-44'>
           <a href="#">
-            <button className='text-black font-medium hover:bg-white/30 rounded duration-300 py-2 md:py-4 px-5 md:px-10 bg-white/50 flex gap-3 items-center text-sm md:text-lg xl::text-xl'>Cosmos Hub  <FaAngleRight /></button>
+            <button className='text-black font-medium hover:bg-white/70 rounded duration-300 py-2 md:py-4 px-5 md:px-10 bg-white flex gap-3 items-center text-sm md:text-lg xl::text-xl'>Cosmos Hub  <FaAngleRight /></button>
           </a>
         </div>
 
